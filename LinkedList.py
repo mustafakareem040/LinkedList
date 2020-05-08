@@ -32,8 +32,3 @@ class LinkedList:
             if node.next: print(node.value, end=',')
             else: print(node.value,end='')
             node = node.next
-    def test(self):
-        node = self.head
-        while node:
-            if node.prev: print(node.value)
-            node = node.prev
